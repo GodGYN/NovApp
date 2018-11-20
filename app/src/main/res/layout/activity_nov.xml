@@ -17,29 +17,39 @@
         android:id="@+id/textView" />
 
     <Button
-        android:text="Start Sensor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="74dp"
-        android:id="@+id/start" />
-
-    <Button
         android:text="END SENSOR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="38dp"
         android:id="@+id/end"
         android:layout_below="@+id/start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp" />
+
+    <Button
+        android:text="Start Sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:id="@+id/start"
+        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
 
     <Button
         android:text="calcuRMWorldToBody"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/calWorldToBody"
+        android:layout_marginTop="14dp"
         android:layout_below="@+id/end"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calWorldToBody"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="43dp"
-        android:id="@+id/calWorldToBody" />
+        android:layout_marginTop="56dp"
+        android:id="@+id/showData" />
+
 </RelativeLayout>
